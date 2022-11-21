@@ -233,11 +233,14 @@ body {
 .separador {
   box-sizing: border-box;
   width: 50%;
+<<<<<<< HEAD
 
 }
 
 .separador2 {
   padding-left: 15%
+=======
+>>>>>>> efc816f633131a932c64ba11d23b8bfac6909282
 }
 
 
@@ -347,6 +350,7 @@ body {
     font-size: 20px;
   }
 
+<<<<<<< HEAD
   .jobs-occupation,
   .education-degree {
     color: #2a2a2a;
@@ -355,3 +359,5 @@ body {
   }
 
 }
+
+>>>>>>> efc816f633131a932c64ba11d23b8bfac6909282
