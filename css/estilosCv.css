@@ -233,7 +233,11 @@ body {
 .separador {
   box-sizing: border-box;
   width: 50%;
-  margin: 0px 20px;
+
+}
+
+.separador2 {
+  padding-left: 15%
 }
 
 
@@ -250,15 +254,16 @@ body {
   .imagen {
     box-sizing: border-box;
     width: 35%;
-    margin: 0 auto; 
+    margin: 0 auto;
 
   }
-  .imagen img{
+
+  .imagen img {
     margin: 20px 0;
   }
- 
 
-  .informacion{
+
+  .informacion {
     width: 100%;
     box-sizing: border-box;
     display: flex;
@@ -267,16 +272,20 @@ body {
     align-items: flex-start;
     justify-content: space-around;
   }
-  .contacts, .skills{
+
+  .contacts,
+  .skills {
     width: 30%;
     height: 170px;
   }
-  .right-side{
+
+  .right-side {
     width: 100%;
     padding: 0 4%;
-  padding-top: 50px;
+    padding-top: 50px;
   }
 }
+
 @media only screen and (max-width: 800px) {
   .separador {
     box-sizing: border-box;
@@ -285,6 +294,10 @@ body {
     margin: 20px 20px;
   }
 
+  .separador2 {
+    padding-left: 0;
+
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -292,13 +305,15 @@ body {
   .imagen {
     box-sizing: border-box;
     width: 40%;
-    margin: 0 auto; 
+    margin: 0 auto;
 
   }
-  .imagen img{
+
+  .imagen img {
     margin: 20px 0;
   }
-  .informacion{
+
+  .informacion {
     width: 100%;
     box-sizing: border-box;
     display: flex;
@@ -306,20 +321,37 @@ body {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .contacts, .skills{
+
+  .contacts,
+  .skills {
     width: 100%;
     height: auto;
   }
-  .contacts-title{
+
+  .contacts{
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .contacts-title {
     font-size: 15px;
 
   }
-  .skills-title{
+
+  .skills-title {
     font-size: 15px;
 
   }
-  .bio-title{
+
+  .bio-title {
     font-size: 20px;
+  }
+
+  .jobs-occupation,
+  .education-degree {
+    color: #2a2a2a;
+    font-size: 13px;
+    line-height: 1.5;
   }
 
 }
